@@ -4,28 +4,37 @@
 }
 
 .box-emt-info{
+    border-radius: 20px;
     background-color:#4CCDC0; 
 }
 .box-emt-info h3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     margin-top:0px;
-    padding: 5px;
+    padding: 8px;
     background-color:#32B3A6;
 }
 
 .box-ems-portal{
+    border-radius: 20px;
     background-color:#50DED0;    
 }
 .box-ems-portal h2{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     margin-top:0px;
     padding: 8px;
     background-color:#36C4B6;
 }
 
 .box-doctor-info{
+    border-radius: 20px;
     background-color:#62E3D6;
 }
 .box-doctor-info h3{
-    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 8px;
     margin-top:0px;
     background-color:#48C9BC;
 }
