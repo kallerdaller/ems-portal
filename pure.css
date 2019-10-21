@@ -7,7 +7,6 @@ https://github.com/pure-css/pure/blob/master/LICENSE.md
 /*csslint regex-selectors:false, known-properties:false, duplicate-properties:false*/
 
 .pure-g {
-    background-color:#222;
     letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
     *letter-spacing: normal; /* reset IE < 8 */
     *word-spacing: -0.43em; /* IE < 8: collapse white-space between units */
@@ -135,7 +134,6 @@ this the same font stack that Normalize.css sets for the `body`.
     word-spacing: normal;
     vertical-align: top;
     text-rendering: auto;
-    background-color:#444;
 }
 
 .pure-u-1-24 {
