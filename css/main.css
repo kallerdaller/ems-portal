@@ -1,3 +1,17 @@
+body, html{
+    margin: 0;
+    height: 100%;
+}
+
+.bg{
+    background-image: url("../assets/backgrounds/13.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+
+
 .pure-u-1-5{
     margin: 0 auto;
     text-align: center;
