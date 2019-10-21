@@ -1,6 +1,7 @@
 body, html{
     margin: 0;
     height: 100%;
+    color: #E6E6D9;
 }
 
 .bg{
@@ -21,43 +22,48 @@ body, html{
 
 .box-emt-info{
     border-radius: 20px;
-    background-color:#4CCDC0; 
+    background-color:#33B4A7; 
 }
 .box-emt-info h3{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-top:0px;
     padding: 8px;
-    background-color:#32B3A6;
+    background-color:#199A8D;
 }
 
 .box-ems-portal{
     border-radius: 20px;
-    background-color:#50DED0;    
+    /*background-color:#50DED0;*/ 
+    background-color:#33B4A7; 
 }
 .box-ems-portal h2{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-top:0px;
     padding: 8px;
-    background-color:#36C4B6;
+    /*background-color:#36C4B6;*/
+    background-color:#199A8D;
 }
 
 .box-doctor-info{
     border-radius: 20px;
-    background-color:#62E3D6;
+    /*background-color:#62E3D6;*/ 
+    background-color:#33B4A7; 
 }
 .box-doctor-info h3{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 8px;
     margin-top:0px;
-    background-color:#48C9BC;
+    /*background-color:#48C9BC;*/
+    background-color:#199A8D;
 }
 
 .box-fto-documents{
     border-radius: 20px;
-    background-color:#74E8DD;
+    /*background-color:#74E8DD;*/ 
+    background-color:#33B4A7; 
 
 }
 .box-fto-documents h3{
@@ -65,13 +71,15 @@ body, html{
     border-top-right-radius: 20px;
     padding: 8px;
     margin-top:0px;
-    background-color:#5ACEC3;
+    /*background-color:#5ACEC3;*/
+    background-color:#199A8D;
 
 }
 
 .box-quick-links{
     border-radius: 20px;
-    background-color:#86EEE3;
+    /*background-color:#86EEE3;*/ 
+    background-color:#33B4A7; 
 
 }
 .box-quick-links h3{
@@ -79,13 +87,15 @@ body, html{
     border-top-right-radius: 20px;
     padding: 8px;
     margin-top:0px;
-    background-color:#6CD4C9;
+    /*background-color:#6CD4C9;*/
+    background-color:#199A8D;
 
 }
 
 .box-command-documents{
     border-radius: 20px;
-    background-color:#99F3EA;
+    /*background-color:#99F3EA;*/ 
+    background-color:#33B4A7; 
 
 }
 .box-command-documents h3{
@@ -93,12 +103,14 @@ body, html{
     border-top-right-radius: 20px;
     padding: 8px;
     margin-top:0px;
-    background-color:#7FD9D0;    
+    /*background-color:#7FD9D0; */
+    background-color:#199A8D;   
 }
 
 .box-login{
     border-radius: 20px;
-    background-color:#BDFEF7;
+    /*background-color:#BDFEF7;*/ 
+    background-color:#33B4A7; 
 
 }
 .box-login h3{
@@ -106,5 +118,6 @@ body, html{
     border-top-right-radius: 20px;
     padding: 8px;
     margin-top:0px;
-    background-color:#A3E4DD;    
+    /*background-color:#A3E4DD;*/
+    background-color:#199A8D; 
 }
