@@ -1,6 +1,8 @@
 .pure-u-1-5{
     margin: 0 auto;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .box-emt-info{
@@ -37,4 +39,32 @@
     padding: 8px;
     margin-top:0px;
     background-color:#48C9BC;
+}
+
+.box-fto-documents{
+    border-radius: 20px;
+    background-color:#74E8DD;
+
+}
+.box-fto-documents h3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 8px;
+    margin-top:0px;
+    background-color:#5ACEC3;
+
+}
+
+.box-quick-links{
+    border-radius: 20px;
+    background-color:#86EEE3;
+
+}
+.box-quick-links h3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 8px;
+    margin-top:0px;
+    background-color:#6CD4C9;
+
 }
