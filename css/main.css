@@ -68,3 +68,29 @@
     background-color:#6CD4C9;
 
 }
+
+.box-command-documents{
+    border-radius: 20px;
+    background-color:#99F3EA;
+
+}
+.box-command-documents h3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 8px;
+    margin-top:0px;
+    background-color:#7FD9D0;    
+}
+
+.box-login{
+    border-radius: 20px;
+    background-color:#BDFEF7;
+
+}
+.box-login h3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 8px;
+    margin-top:0px;
+    background-color:#A3E4DD;    
+}
