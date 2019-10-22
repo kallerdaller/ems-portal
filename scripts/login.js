@@ -9,7 +9,10 @@ function fto(){
     {
         password = window.btoa(password);
     }
-    console.log(password);
+    if(passcode == password)
+    {
+        window.alert("Signed in as FTO");
+    }
 }
 
 function command(){
@@ -22,5 +25,8 @@ function command(){
     {
         password = window.btoa(password);
     }
-    console.log(password);
+    if(passcode == password)
+    {
+        window.alert("Signed in as Command");
+    }
 }
