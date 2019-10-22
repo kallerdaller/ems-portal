@@ -24,13 +24,13 @@ function checkLoad()
     if(fto != "")
     {
         window.alert("heyo fto");
-        fto = True;
+        fto = new Boolean(true);
     }
     var command = getCookie("command");
     if(command !="")
     {
         window.alert("heyo command");
-        command = true;
+        command = new Boolean(true);
     }
     //if not command & not fto, del boxes
 }
