@@ -23,13 +23,11 @@ function checkLoad()
     var fto = getCookie("fto");
     if(fto != "")
     {
-        window.alert("heyo fto");
         fto = new Boolean(true);
     }
     var command = getCookie("command");
     if(command !="")
     {
-        window.alert("heyo command");
         command = new Boolean(true);
     }
     //if not command & not fto, del boxes
