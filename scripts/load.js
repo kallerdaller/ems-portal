@@ -36,21 +36,20 @@ function checkLoad()
     {
         var commandBoxes = document.getElementsByClassName("box-command-documents");
         commandBoxes[0].innerHTML = "";
-        commandBoxes[0].classList.remove("box-command-documents")
+        commandBoxes[0].classList.remove("box-command-documents");
     }
     if(!fto)
     {
         var ftoBoxes = document.getElementsByClassName("box-fto-documents");
         ftoBoxes[0].innerHTML = "";
-        ftoBoxes[0].classList.remove("box-fto-documents")
+        ftoBoxes[0].classList.remove("box-fto-documents");
     }
 }
 
 function loadBackground()
 {
     var x = Math.floor(Math.random() * 27) + 1;
-    var image_name = "url(../assets/backgrounds/" + x.toString() + ".png)";
-    console.log(image_name);
-    var body = document.getElementsByTagName("body");
-    body[0].style.backgroundImage = image_name;
+    var image_name = "url('assets/backgrounds/" + x.toString() + ".png')";
+    var bg = document.getElementById("bg");
+    bg.style.backgroundImage = image_name;
 }
