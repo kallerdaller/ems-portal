@@ -3,6 +3,14 @@ body, html{
     height: 100%;
     color: #E6E6D9;
 }
+a:link, a:visited{
+    text-decoration: none;
+    color: #E6E6D9;
+}
+a:hover{
+    text-decoration: underline;
+    color: #CDCDC0;
+}
 
 #bg{
     background-image: url("../assets/backgrounds/13.png");
@@ -150,4 +158,5 @@ button{
 }
 button:hover{
     background-color: #67E8DB;
+    cursor: pointer;
 }
