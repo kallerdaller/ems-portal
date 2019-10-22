@@ -20,6 +20,7 @@ function getCookie(cname)
 
 function checkLoad() 
 {
+    loadBackground();
     var fto = getCookie("fto");
     if(fto != "")
     {
@@ -43,4 +44,13 @@ function checkLoad()
         ftoBoxes[0].innerHTML = "";
         ftoBoxes[0].classList.remove("box-fto-documents")
     }
+}
+
+function loadBackground()
+{
+    var x = Math.floor(Math.random() * 27) + 1;
+    var image_name = "url(../assets/backgrounds/" + x.toString() + ".png)";
+    console.log(image_name);
+    var body = document.getElementsByTagName("body");
+    body[0].style.backgroundImage = image_name;
 }
