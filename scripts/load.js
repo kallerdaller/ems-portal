@@ -33,4 +33,16 @@ function checkLoad()
         command = new Boolean(true);
     }
     //if not command & not fto, del boxes
+    if(!command)
+    {
+        var commandBoxes = document.getElementsByClassName("box-command-documents");
+        commandBoxes[0].innerHTML = "";
+        commandBoxes[0].classList.remove("box-command-documents")
+    }
+    if(!fto)
+    {
+        var ftoBoxes = document.getElementsByClassName("box-fto-documents");
+        ftoBoxes[0].innerHTML = "";
+        ftoBoxes[0].classList.remove("box-fto-documents")
+    }
 }
