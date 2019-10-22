@@ -18,6 +18,11 @@ body, html{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+.pure-u-1-5:hover{
+    opacity:1;
 }
 
 .box-emt-info{
@@ -120,4 +125,29 @@ body, html{
     margin-top:0px;
     /*background-color:#A3E4DD;*/
     background-color:#199A8D; 
+}
+
+input{
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #4DCEC1;
+    border-style: solid;
+    border-color: #199A8D;
+    transition: background-color 0.2s;
+}
+input:focus{
+    background-color: #67E8DB;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #4DCEC1;
+    border-style: solid;
+    border-color: #199A8D;
+    transition: background-color 0.2s;
+}
+button:hover{
+    background-color: #67E8DB;
 }
