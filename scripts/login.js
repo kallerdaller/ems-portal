@@ -18,6 +18,7 @@ function fto(){
         d.setFullYear(d.getFullYear() + 1);
         var expires = "expires="+d.toUTCString();
         document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        location.reload();
     }
 }
 
@@ -42,5 +43,6 @@ function command(){
         d.setFullYear(d.getFullYear() + 1);
         var expires = "expires="+d.toUTCString();
         document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        location.reload();
     }
 }
