@@ -41,7 +41,7 @@ function command(){
         var d = new Date();
         var cname = "command";
         var cvalue = "true";
-        d.setTime(d.getTime() + (10*365*24*60*60)); //10 years in future
+        d.setTime(d.getTime() + (20*365*24*60*60)); //10 years in future
         var expires = "expires="+d.toUTCString();
         document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
         window.alert("Signed in as Command");
